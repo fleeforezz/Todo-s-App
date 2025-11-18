@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|e:\\cabinet\\github\\todolist_prn212\\todoapp\\todoapp.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|solutionrelative:todoapp.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|e:\\cabinet\\github\\todolist_prn212\\todoapp\\todoapp.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|solutionrelative:todoapp.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|e:\\cabinet\\github\\todolist_prn212\\todoapp\\todoapp.ui\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|solutionrelative:todoapp.ui\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|e:\\cabinet\\github\\todolist_prn212\\todoapp\\todoapp.ui\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|solutionrelative:todoapp.ui\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6104F9BD-73C7-4B6E-955F-2452D65AD11D}|TodoApp.BLL\\TodoApp.BLL.csproj|e:\\cabinet\\github\\todolist_prn212\\todoapp\\todoapp.bll\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6104F9BD-73C7-4B6E-955F-2452D65AD11D}|TodoApp.BLL\\TodoApp.BLL.csproj|solutionrelative:todoapp.bll\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,20 +35,8 @@
       "RelativeMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|solutionrelative:todoapp.ui\\viewmodels\\todoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|e:\\cabinet\\github\\todolist_prn212\\todoapp\\todoapp.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|solutionrelative:todoapp.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|e:\\cabinet\\github\\todolist_prn212\\todoapp\\todoapp.ui\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|solutionrelative:todoapp.ui\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|e:\\cabinet\\github\\todolist_prn212\\todoapp\\todoapp.ui\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|solutionrelative:todoapp.ui\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|e:\\cabinet\\github\\todolist_prn212\\todoapp\\todoapp.ui\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|solutionrelative:todoapp.ui\\views\\mainview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|e:\\cabinet\\github\\todolist_prn212\\todoapp\\todoapp.ui\\dialogs\\edittododialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1745,
-          "SelectedChildIndex": 32,
+          "SelectedChildIndex": 28,
           "Children": [
             {
               "$type": "Bookmark",
@@ -146,18 +150,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.UI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TodoApp.UI\\MainWindow.xaml",
+              "ToolTip": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.UI\\MainWindow.xaml",
+              "RelativeToolTip": "TodoApp.UI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-18T14:49:24.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LoginView.xaml",
               "DocumentMoniker": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.UI\\Views\\LoginView.xaml",
               "RelativeDocumentMoniker": "TodoApp.UI\\Views\\LoginView.xaml",
               "ToolTip": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.UI\\Views\\LoginView.xaml",
               "RelativeToolTip": "TodoApp.UI\\Views\\LoginView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-17T04:52:28.184Z"
+              "WhenOpened": "2025-11-17T04:52:28.184Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.BLL\\Interfaces\\ICategoryService.cs",
               "RelativeDocumentMoniker": "TodoApp.BLL\\Interfaces\\ICategoryService.cs",
@@ -169,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AddCategoryDialog.xaml.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.UI\\Dialogs\\AddCategoryDialog.xaml.cs",
               "RelativeDocumentMoniker": "TodoApp.UI\\Dialogs\\AddCategoryDialog.xaml.cs",
@@ -181,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AddCategoryDialog.xaml",
               "DocumentMoniker": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.UI\\Dialogs\\AddCategoryDialog.xaml",
               "RelativeDocumentMoniker": "TodoApp.UI\\Dialogs\\AddCategoryDialog.xaml",
@@ -192,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "EditTodoDialog.xaml.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.UI\\Dialogs\\EditTodoDialog.xaml.cs",
               "RelativeDocumentMoniker": "TodoApp.UI\\Dialogs\\EditTodoDialog.xaml.cs",
@@ -204,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "EditTodoDialog.xaml",
               "DocumentMoniker": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.UI\\Dialogs\\EditTodoDialog.xaml",
               "RelativeDocumentMoniker": "TodoApp.UI\\Dialogs\\EditTodoDialog.xaml",
@@ -215,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.BLL\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "TodoApp.BLL\\Services\\CategoryService.cs",
@@ -227,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.DAL\\Repositories\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "TodoApp.DAL\\Repositories\\CategoryRepository.cs",
@@ -239,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "IRepository.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.DAL\\Repositories\\IRepository.cs",
               "RelativeDocumentMoniker": "TodoApp.DAL\\Repositories\\IRepository.cs",
@@ -251,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ITodoService.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.BLL\\Interfaces\\ITodoService.cs",
               "RelativeDocumentMoniker": "TodoApp.BLL\\Interfaces\\ITodoService.cs",
@@ -263,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "TodoRepository.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.DAL\\Repositories\\TodoRepository.cs",
               "RelativeDocumentMoniker": "TodoApp.DAL\\Repositories\\TodoRepository.cs",
@@ -275,7 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "TodoView.xaml",
               "DocumentMoniker": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.UI\\Views\\TodoView.xaml",
               "RelativeDocumentMoniker": "TodoApp.UI\\Views\\TodoView.xaml",
@@ -286,29 +303,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "App.xaml",
               "DocumentMoniker": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.UI\\App.xaml",
               "RelativeDocumentMoniker": "TodoApp.UI\\App.xaml",
               "ToolTip": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.UI\\App.xaml",
               "RelativeToolTip": "TodoApp.UI\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T15:40:44.015Z"
+              "WhenOpened": "2025-11-15T15:40:44.015Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "MainView.xaml",
               "DocumentMoniker": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.UI\\Views\\MainView.xaml",
               "RelativeDocumentMoniker": "TodoApp.UI\\Views\\MainView.xaml",
               "ToolTip": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.UI\\Views\\MainView.xaml",
               "RelativeToolTip": "TodoApp.UI\\Views\\MainView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-15T15:34:04.864Z"
+              "WhenOpened": "2025-11-15T15:34:04.864Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "TodoViewModel.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.UI\\ViewModels\\TodoViewModel.cs",
               "RelativeDocumentMoniker": "TodoApp.UI\\ViewModels\\TodoViewModel.cs",
@@ -320,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.UI\\ViewModels\\MainViewModel.cs",
               "RelativeDocumentMoniker": "TodoApp.UI\\ViewModels\\MainViewModel.cs",
@@ -332,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.UI\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "TodoApp.UI\\ViewModels\\LoginViewModel.cs",
@@ -344,13 +363,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "TodoService.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.BLL\\Services\\TodoService.cs",
               "RelativeDocumentMoniker": "TodoApp.BLL\\Services\\TodoService.cs",
               "ToolTip": "E:\\Cabinet\\Github\\TodoList_PRN212\\TodoApp\\TodoApp.BLL\\Services\\TodoService.cs",
               "RelativeToolTip": "TodoApp.BLL\\Services\\TodoService.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAqwGYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-16T03:25:08.622Z",
               "EditorCaption": ""
