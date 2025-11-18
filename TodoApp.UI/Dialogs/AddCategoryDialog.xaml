@@ -1,0 +1,240 @@
+﻿<Window
+    x:Class="TodoApp.UI.Dialogs.AddCategoryDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:TodoApp.UI.Dialogs"
+    mc:Ignorable="d"
+    Title="Add Category"
+    Height="260"
+    Width="400"
+    WindowStartupLocation="CenterScreen"
+    ResizeMode="NoResize"
+    Background="#F5F5F5"
+    WindowStyle="None"
+    AllowsTransparency="True">
+    <Border
+        Background="White"
+        CornerRadius="12"
+        Padding="30">
+        <Border.Effect>
+            <DropShadowEffect
+                BlurRadius="20"
+                ShadowDepth="0"
+                Opacity="0.3" />
+        </Border.Effect>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition
+                    Height="Auto" />
+                <RowDefinition
+                    Height="Auto" />
+                <RowDefinition
+                    Height="*" />
+                <RowDefinition
+                    Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!-- Header -->
+            <Grid
+                Grid.Row="0"
+                Margin="0,0,0,25">
+                <TextBlock
+                    Text="Add Category"
+                    FontSize="24"
+                    FontWeight="SemiBold"
+                    HorizontalAlignment="Left" />
+                <Button
+                    Content="✕"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Top"
+                    Width="30"
+                    Height="30"
+                    Background="Transparent"
+                    BorderThickness="0"
+                    FontSize="18"
+                    Foreground="#999"
+                    Cursor="Hand"
+                    Click="CloseButton_Click">
+                    <Button.Style>
+                        <Style
+                            TargetType="Button">
+                            <Setter
+                                Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate
+                                        TargetType="Button">
+                                        <Border
+                                            Background="{TemplateBinding Background}"
+                                            CornerRadius="15">
+                                            <ContentPresenter
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center" />
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <Trigger
+                                    Property="IsMouseOver"
+                                    Value="True">
+                                    <Setter
+                                        Property="Background"
+                                        Value="#F0F0F0" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </Grid>
+
+            <!-- Category Name Input -->
+            <StackPanel
+                Grid.Row="1">
+                <TextBlock
+                    Text="Category Name"
+                    FontSize="14"
+                    FontWeight="SemiBold"
+                    Margin="0,0,0,8" />
+                <TextBox
+                    x:Name="CategoryNameTextBox"
+                    Height="40"
+                    FontSize="14"
+                    Padding="12,0"
+                    VerticalContentAlignment="Center"
+                    BorderBrush="#DDD"
+                    BorderThickness="1"
+                    MaxLength="50">
+                    <TextBox.Style>
+                        <Style
+                            TargetType="TextBox">
+                            <Setter
+                                Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate
+                                        TargetType="TextBox">
+                                        <Border
+                                            Background="{TemplateBinding Background}"
+                                            BorderBrush="{TemplateBinding BorderBrush}"
+                                            BorderThickness="{TemplateBinding BorderThickness}"
+                                            CornerRadius="6">
+                                            <ScrollViewer
+                                                x:Name="PART_ContentHost"
+                                                Padding="{TemplateBinding Padding}"
+                                                VerticalAlignment="Center" />
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <Trigger
+                                    Property="IsFocused"
+                                    Value="True">
+                                    <Setter
+                                        Property="BorderBrush"
+                                        Value="#3498DB" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBox.Style>
+                </TextBox>
+            </StackPanel>
+
+            <!-- Buttons -->
+            <StackPanel
+                Grid.Row="3"
+                Orientation="Horizontal"
+                HorizontalAlignment="Right"
+                Margin="0,30,0,0">
+                <Button
+                    Content="Cancel"
+                    Width="100"
+                    Height="40"
+                    Margin="0,0,12,0"
+                    Background="Transparent"
+                    Foreground="#666"
+                    BorderBrush="#DDD"
+                    BorderThickness="1"
+                    FontSize="14"
+                    FontWeight="SemiBold"
+                    Cursor="Hand"
+                    Click="CancelButton_Click">
+                    <Button.Style>
+                        <Style
+                            TargetType="Button">
+                            <Setter
+                                Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate
+                                        TargetType="Button">
+                                        <Border
+                                            Background="{TemplateBinding Background}"
+                                            BorderBrush="{TemplateBinding BorderBrush}"
+                                            BorderThickness="{TemplateBinding BorderThickness}"
+                                            CornerRadius="6">
+                                            <ContentPresenter
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center" />
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <Trigger
+                                    Property="IsMouseOver"
+                                    Value="True">
+                                    <Setter
+                                        Property="Background"
+                                        Value="#F0F0F0" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+                <Button
+                    Content="Add Category"
+                    Width="130"
+                    Height="40"
+                    Background="Black"
+                    Foreground="White"
+                    BorderThickness="0"
+                    FontSize="14"
+                    FontWeight="SemiBold"
+                    Cursor="Hand"
+                    Click="AddButton_Click">
+                    <Button.Style>
+                        <Style
+                            TargetType="Button">
+                            <Setter
+                                Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate
+                                        TargetType="Button">
+                                        <Border
+                                            Background="{TemplateBinding Background}"
+                                            CornerRadius="6">
+                                            <ContentPresenter
+                                                HorizontalAlignment="Center"
+                                                VerticalAlignment="Center" />
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <Trigger
+                                    Property="IsMouseOver"
+                                    Value="True">
+                                    <Setter
+                                        Property="Background"
+                                        Value="#333" />
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+            </StackPanel>
+        </Grid>
+    </Border>
+</Window>
