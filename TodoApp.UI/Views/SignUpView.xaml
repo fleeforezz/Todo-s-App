@@ -1,0 +1,110 @@
+﻿<UserControl
+    x:Class="TodoApp.UI.Views.SignUpView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:TodoApp.UI.Views"
+    mc:Ignorable="d"
+    d:DesignHeight="700"
+    d:DesignWidth="500"
+    Width="500"
+    Height="700">
+    <Grid
+        Margin="24">
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="60" />
+            <RowDefinition
+                Height="Auto" />
+            <RowDefinition
+                Height="Auto" />
+            <RowDefinition
+                Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel
+            Grid.Row="0"
+            HorizontalAlignment="Left"
+            Orientation="Horizontal"
+            VerticalAlignment="Center">
+            <Image
+                Source="/Assets/Logo.png"
+                Width="40"
+                Height="50" />
+            <TextBlock
+                VerticalAlignment="Center"
+                Margin="8,0,0,0"
+                LineStackingStrategy="BlockLineHeight"
+                LineHeight="16"
+                FontSize="18"
+                FontWeight="Bold">
+                Todo's
+                <LineBreak />
+                App
+            </TextBlock>
+
+        </StackPanel>
+
+        <TextBlock
+            Grid.Row="1"
+            Text="Get your job done IN TIME"
+            TextWrapping="Wrap"
+            Margin="0,25,0,0"
+            FontSize="40"
+            FontWeight="SemiBold" />
+
+        <StackPanel
+            Grid.Row="2"
+            Margin="0,100,0,0">
+            <StackPanel>
+                <TextBlock
+                    Text="Email"
+                    Style="{StaticResource LabelStyle}" />
+                <TextBox
+                    x:Name="EmailTextBox"
+                    Text="{Binding Email}"
+                    Height="40"
+                    Style="{StaticResource TextBoxStyle}" />
+
+                <TextBlock
+                    Text="Username"
+                    Margin="0,20,0,0"
+                    Style="{StaticResource LabelStyle}" />
+                <TextBox
+                    x:Name="UsernameTextBox"
+                    Text="{Binding Username}"
+                    Height="40"
+                    Style="{StaticResource TextBoxStyle}" />
+
+                <TextBlock
+                    Text="Password"
+                    Margin="0,20,0,0"
+                    Style="{StaticResource LabelStyle}" />
+                <PasswordBox
+                    x:Name="PasswordBox"
+                    PasswordChanged="PasswordChanged"
+                    Height="40"
+                    Style="{StaticResource PasswordBoxStyle}" />
+
+                <Button
+                    x:Name="LoginButton"
+                    Content="-> Register"
+                    Margin="0,20,0,0"
+                    Height="40"
+                    Style="{StaticResource Button}"
+                    Command="{Binding RegisterCommand}" />
+
+                <Button
+                    x:Name="BackToLogin"
+                    Content="Back to Login"
+                    Background="Transparent"
+                    Margin="0,10,0,0"
+                    BorderThickness="0"
+                    Width="150"
+                    Command="{Binding GoToLoginCommand}">
+                </Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>
