@@ -13,7 +13,7 @@
         Margin="24"
         Width="500"
         Height="700">
-        <Grid.RowDefinitions>
+        <!--<Grid.RowDefinitions>
             <RowDefinition
                 Height="60" />
             <RowDefinition
@@ -96,6 +96,6 @@
                     Command="{Binding GoToSignUpCommand}">
                 </Button>
             </StackPanel>
-        </StackPanel>
+        </StackPanel>-->
     </Grid>
 </Window>
