@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Cabinet\\Github\\Todo-s-App\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|e:\\cabinet\\github\\todo-s-app\\todoapp.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|solutionrelative:todoapp.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|e:\\cabinet\\github\\todo-s-app\\todoapp.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|solutionrelative:todoapp.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|e:\\cabinet\\github\\todo-s-app\\todoapp.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|solutionrelative:todoapp.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|e:\\cabinet\\github\\todo-s-app\\todoapp.ui\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -86,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1745,
-          "SelectedChildIndex": 28,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -150,14 +150,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\TodoApp.UI\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TodoApp.UI\\MainWindow.xaml",
               "ToolTip": "E:\\Cabinet\\Github\\Todo-s-App\\TodoApp.UI\\MainWindow.xaml",
               "RelativeToolTip": "TodoApp.UI\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-18T14:49:24.963Z"
+              "WhenOpened": "2025-11-18T14:49:24.963Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -301,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "App.xaml",
               "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\TodoApp.UI\\App.xaml",
               "RelativeDocumentMoniker": "TodoApp.UI\\App.xaml",
