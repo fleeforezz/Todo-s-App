@@ -1,4 +1,7 @@
-﻿using Microsoft.UI.Xaml;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Controls.Primitives;
 using Microsoft.UI.Xaml.Data;
@@ -11,6 +14,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Todo.Infrastructure.Persistences;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
@@ -32,9 +36,26 @@ namespace Todo.WinUI
         /// Initializes the singleton application object.  This is the first line of authored code
         /// executed, and as such is the logical equivalent of main() or WinMain().
         /// </summary>
+        /// 
+        public static IServiceProvider Services { get; private set; }
+
         public App()
         {
             InitializeComponent();
+        }
+
+        private void ConfigureServices()
+        {
+            var services = new ServiceCollection();
+            var configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            // Register services here
+            // services.AddSingleton<IMyService, MyServiceImplementation>();
+            services.AddDbContext<TodoDbContext>(options =>
+            options.UseSqlServer(configuration.GetConnectionString("DefaultConnectionStringDB")));
         }
 
         /// <summary>
