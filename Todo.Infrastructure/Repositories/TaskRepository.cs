@@ -15,6 +15,9 @@ namespace Todo.Infrastructure.Repositories
         {
         }
 
+        /*
+         * Get important task by user Id
+         */
         public async Task<IEnumerable<Domain.Entities.Task>> GetImportantTasksByUserIdAsync(Guid userId)
         {
             return await _dbSet
@@ -24,6 +27,9 @@ namespace Todo.Infrastructure.Repositories
                 .ToListAsync();
         }
 
+        /*
+         * Get task by tag
+         */
         public async Task<IEnumerable<Domain.Entities.Task>> GetTaskByTagAsync(Guid tagId)
         {
             return await _dbSet
@@ -33,6 +39,9 @@ namespace Todo.Infrastructure.Repositories
                 .ToListAsync();
         }
 
+        /*
+         * Get tasks by user Id
+         */
         public async Task<IEnumerable<Domain.Entities.Task>> GetTasksByUserIdAsync(Guid userId)
         {
             return await _dbSet

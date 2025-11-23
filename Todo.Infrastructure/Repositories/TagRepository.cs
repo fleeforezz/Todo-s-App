@@ -16,6 +16,9 @@ namespace Todo.Infrastructure.Repositories
         {
         }
 
+        /*
+         * Get tag by user id
+         */
         public async Task<IEnumerable<Tag>> GetTagsByUserIdAsync(Guid userId)
         {
             return await _dbSet

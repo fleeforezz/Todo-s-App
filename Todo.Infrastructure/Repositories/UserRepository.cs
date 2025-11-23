@@ -16,11 +16,17 @@ namespace Todo.Infrastructure.Repositories
         {
         }
 
+        /*
+         * Get User by Email
+         */
         public async Task<User?> GetUserByEmailAsync(string email)
         {
             return await _dbSet.FirstOrDefaultAsync(u => u.Email == email);
         }
 
+        /*
+         * Get user by username
+         */
         public async Task<User> GetUserByUserNameAsync(string userName)
         {
             return await _dbSet.FirstOrDefaultAsync(u => u.UserName == userName);

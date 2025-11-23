@@ -9,6 +9,7 @@ namespace Todo.Domain.Entities
     public class Tag
     {
         public Guid TagId { get; set; }
+        public Guid UserId { get; set; }
         public string TagName { get; set; }
         public DateTime CreatedTime { get; set; } = DateTime.Now;
         public DateTime UpdatedTime { get; set; } = DateTime.Now;

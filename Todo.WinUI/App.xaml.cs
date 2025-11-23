@@ -14,7 +14,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Todo.Application.Interfaces;
+using Todo.Application.Services;
 using Todo.Infrastructure.Persistences;
+using Todo.Infrastructure.Repositories;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
@@ -28,7 +31,7 @@ namespace Todo.WinUI
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.
     /// </summary>
-    public partial class App : Application
+    public partial class App : Microsoft.UI.Xaml.Application
     {
         private Window? _window;
 
@@ -38,24 +41,39 @@ namespace Todo.WinUI
         /// </summary>
         /// 
         public static IServiceProvider Services { get; private set; }
+        public static IConfiguration Configuration { get; private set; }
 
         public App()
         {
             InitializeComponent();
+            ConfigureServices();
         }
 
         private void ConfigureServices()
         {
             var services = new ServiceCollection();
-            var configuration = new ConfigurationBuilder()
+            Configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json")
                 .Build();
 
             // Register services here
-            // services.AddSingleton<IMyService, MyServiceImplementation>();
+            // Register DbContext with connection string from appsettings.json
             services.AddDbContext<TodoDbContext>(options =>
-            options.UseSqlServer(configuration.GetConnectionString("DefaultConnectionStringDB")));
+                options.UseSqlServer(
+                    Configuration.GetConnectionString("DefaultConnection"),
+                    b => b.MigrationsAssembly("Todo.Infrastructure")
+                )
+            );
+
+            // Register UnitOfWork
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            // Register Application Services
+            services.AddScoped<TaskService>();
+
+            // Register ViewModels
+            //services.AddTransient<MainViewModel>();
         }
 
         /// <summary>

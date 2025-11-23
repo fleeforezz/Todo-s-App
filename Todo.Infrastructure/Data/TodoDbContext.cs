@@ -48,7 +48,8 @@ namespace Todo.Infrastructure.Persistences
                 entity.HasOne(e => e.Tag)
                     .WithMany(t => t.Tasks)
                     .HasForeignKey(e => e.TagId)
-                    .OnDelete(DeleteBehavior.SetNull);
+                    .IsRequired(false)
+                    .OnDelete(DeleteBehavior.Restrict);
             });
 
             // Tag configuration
@@ -59,7 +60,7 @@ namespace Todo.Infrastructure.Persistences
 
                 entity.HasOne(e => e.User)
                     .WithMany(u => u.Tags)
-                    .HasForeignKey(e => e.User.UserId)
+                    .HasForeignKey(e => e.UserId)
                     .OnDelete(DeleteBehavior.Cascade);
             });
         }
