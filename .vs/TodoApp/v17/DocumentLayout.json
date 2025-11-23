@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "E:\\Cabinet\\Github\\Todo-s-App\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3B27B8C1-2063-4BD4-8527-B46D1B750A5E}|Todo.Application\\Todo.Application.csproj|e:\\cabinet\\github\\todo-s-app\\todo.application\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B27B8C1-2063-4BD4-8527-B46D1B750A5E}|Todo.Application\\Todo.Application.csproj|solutionrelative:todo.application\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49359A48-52D3-46D6-A586-ABD8DD17B1EA}|Todo.Domain\\Todo.Domain.csproj|e:\\cabinet\\github\\todo-s-app\\todo.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49359A48-52D3-46D6-A586-ABD8DD17B1EA}|Todo.Domain\\Todo.Domain.csproj|solutionrelative:todo.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3805CF25-88D8-46F3-A128-40B9D21963BE}|Todo.Infrastructure\\Todo.Infrastructure.csproj|e:\\cabinet\\github\\todo-s-app\\todo.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3805CF25-88D8-46F3-A128-40B9D21963BE}|Todo.Infrastructure\\Todo.Infrastructure.csproj|solutionrelative:todo.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3805CF25-88D8-46F3-A128-40B9D21963BE}|Todo.Infrastructure\\Todo.Infrastructure.csproj|e:\\cabinet\\github\\todo-s-app\\todo.infrastructure\\repositories\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3805CF25-88D8-46F3-A128-40B9D21963BE}|Todo.Infrastructure\\Todo.Infrastructure.csproj|solutionrelative:todo.infrastructure\\repositories\\tagrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3805CF25-88D8-46F3-A128-40B9D21963BE}|Todo.Infrastructure\\Todo.Infrastructure.csproj|e:\\cabinet\\github\\todo-s-app\\todo.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3805CF25-88D8-46F3-A128-40B9D21963BE}|Todo.Infrastructure\\Todo.Infrastructure.csproj|solutionrelative:todo.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3805CF25-88D8-46F3-A128-40B9D21963BE}|Todo.Infrastructure\\Todo.Infrastructure.csproj|e:\\cabinet\\github\\todo-s-app\\todo.infrastructure\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3805CF25-88D8-46F3-A128-40B9D21963BE}|Todo.Infrastructure\\Todo.Infrastructure.csproj|solutionrelative:todo.infrastructure\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,36 +31,24 @@
       "RelativeMoniker": "D:0:0:{3805CF25-88D8-46F3-A128-40B9D21963BE}|Todo.Infrastructure\\Todo.Infrastructure.csproj|solutionrelative:todo.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B27B8C1-2063-4BD4-8527-B46D1B750A5E}|Todo.Application\\Todo.Application.csproj|e:\\cabinet\\github\\todo-s-app\\todo.application\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B27B8C1-2063-4BD4-8527-B46D1B750A5E}|Todo.Application\\Todo.Application.csproj|solutionrelative:todo.application\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3805CF25-88D8-46F3-A128-40B9D21963BE}|Todo.Infrastructure\\Todo.Infrastructure.csproj|e:\\cabinet\\github\\todo-s-app\\todo.infrastructure\\data\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3805CF25-88D8-46F3-A128-40B9D21963BE}|Todo.Infrastructure\\Todo.Infrastructure.csproj|solutionrelative:todo.infrastructure\\data\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B27B8C1-2063-4BD4-8527-B46D1B750A5E}|Todo.Application\\Todo.Application.csproj|e:\\cabinet\\github\\todo-s-app\\todo.application\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B27B8C1-2063-4BD4-8527-B46D1B750A5E}|Todo.Application\\Todo.Application.csproj|solutionrelative:todo.application\\dtos\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B27B8C1-2063-4BD4-8527-B46D1B750A5E}|Todo.Application\\Todo.Application.csproj|e:\\cabinet\\github\\todo-s-app\\todo.application\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B27B8C1-2063-4BD4-8527-B46D1B750A5E}|Todo.Application\\Todo.Application.csproj|solutionrelative:todo.application\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B27B8C1-2063-4BD4-8527-B46D1B750A5E}|Todo.Application\\Todo.Application.csproj|e:\\cabinet\\github\\todo-s-app\\todo.application\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B27B8C1-2063-4BD4-8527-B46D1B750A5E}|Todo.Application\\Todo.Application.csproj|solutionrelative:todo.application\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3805CF25-88D8-46F3-A128-40B9D21963BE}|Todo.Infrastructure\\Todo.Infrastructure.csproj|e:\\cabinet\\github\\todo-s-app\\todo.infrastructure\\data\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3805CF25-88D8-46F3-A128-40B9D21963BE}|Todo.Infrastructure\\Todo.Infrastructure.csproj|solutionrelative:todo.infrastructure\\data\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{49359A48-52D3-46D6-A586-ABD8DD17B1EA}|Todo.Domain\\Todo.Domain.csproj|e:\\cabinet\\github\\todo-s-app\\todo.domain\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49359A48-52D3-46D6-A586-ABD8DD17B1EA}|Todo.Domain\\Todo.Domain.csproj|solutionrelative:todo.domain\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53DF18F9-13F5-45D9-A509-FC15A022CBFE}|Todo\\Todo.csproj|e:\\cabinet\\github\\todo-s-app\\todo\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53DF18F9-13F5-45D9-A509-FC15A022CBFE}|Todo\\Todo.csproj|solutionrelative:todo\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{49359A48-52D3-46D6-A586-ABD8DD17B1EA}|Todo.Domain\\Todo.Domain.csproj|e:\\cabinet\\github\\todo-s-app\\todo.domain\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49359A48-52D3-46D6-A586-ABD8DD17B1EA}|Todo.Domain\\Todo.Domain.csproj|solutionrelative:todo.domain\\entities\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49359A48-52D3-46D6-A586-ABD8DD17B1EA}|Todo.Domain\\Todo.Domain.csproj|e:\\cabinet\\github\\todo-s-app\\todo.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49359A48-52D3-46D6-A586-ABD8DD17B1EA}|Todo.Domain\\Todo.Domain.csproj|solutionrelative:todo.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,34 +58,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1745,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 22,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TaskRepository.cs",
-              "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Infrastructure\\Repositories\\TaskRepository.cs",
-              "RelativeDocumentMoniker": "Todo.Infrastructure\\Repositories\\TaskRepository.cs",
-              "ToolTip": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Infrastructure\\Repositories\\TaskRepository.cs",
-              "RelativeToolTip": "Todo.Infrastructure\\Repositories\\TaskRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T15:39:30.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Application\\Interfaces\\IRepository.cs",
-              "RelativeDocumentMoniker": "Todo.Application\\Interfaces\\IRepository.cs",
-              "ToolTip": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Application\\Interfaces\\IRepository.cs",
-              "RelativeToolTip": "Todo.Application\\Interfaces\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T15:35:53.998Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -140,46 +122,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Todo.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Todo.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T01:15:59.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TagRepository.cs",
+              "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Infrastructure\\Repositories\\TagRepository.cs",
+              "RelativeDocumentMoniker": "Todo.Infrastructure\\Repositories\\TagRepository.cs",
+              "ToolTip": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Infrastructure\\Repositories\\TagRepository.cs",
+              "RelativeToolTip": "Todo.Infrastructure\\Repositories\\TagRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T01:14:24.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Todo.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Todo.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-23T01:11:45.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Infrastructure\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "Todo.Infrastructure\\Repositories\\TaskRepository.cs",
+              "ToolTip": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Infrastructure\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "Todo.Infrastructure\\Repositories\\TaskRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:39:30.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Repository.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Infrastructure\\Repositories\\Repository.cs",
               "RelativeDocumentMoniker": "Todo.Infrastructure\\Repositories\\Repository.cs",
               "ToolTip": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Infrastructure\\Repositories\\Repository.cs",
               "RelativeToolTip": "Todo.Infrastructure\\Repositories\\Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwEAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T15:31:38.525Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T15:31:38.525Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaskDto.cs",
-              "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Application\\DTOs\\TaskDto.cs",
-              "RelativeDocumentMoniker": "Todo.Application\\DTOs\\TaskDto.cs",
-              "ToolTip": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Application\\DTOs\\TaskDto.cs",
-              "RelativeToolTip": "Todo.Application\\DTOs\\TaskDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T15:08:44.601Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TaskService.cs",
-              "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Application\\Services\\TaskService.cs",
-              "RelativeDocumentMoniker": "Todo.Application\\Services\\TaskService.cs",
-              "ToolTip": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Application\\Services\\TaskService.cs",
-              "RelativeToolTip": "Todo.Application\\Services\\TaskService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA8wBQAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T15:06:37.311Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "TodoDbContext.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Infrastructure\\Data\\TodoDbContext.cs",
               "RelativeDocumentMoniker": "Todo.Infrastructure\\Data\\TodoDbContext.cs",
@@ -187,51 +190,48 @@
               "RelativeToolTip": "Todo.Infrastructure\\Data\\TodoDbContext.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAswD8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T14:41:07.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\Todo\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Todo\\App.xaml.cs",
-              "ToolTip": "E:\\Cabinet\\Github\\Todo-s-App\\Todo\\App.xaml.cs",
-              "RelativeToolTip": "Todo\\App.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwC0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T14:40:31.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Tag.cs",
-              "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Domain\\Entities\\Tag.cs",
-              "RelativeDocumentMoniker": "Todo.Domain\\Entities\\Tag.cs",
-              "ToolTip": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Domain\\Entities\\Tag.cs",
-              "RelativeToolTip": "Todo.Domain\\Entities\\Tag.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T14:13:10.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T14:41:07.721Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Task.cs",
-              "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Domain\\Entities\\Task.cs",
-              "RelativeDocumentMoniker": "Todo.Domain\\Entities\\Task.cs",
-              "ToolTip": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Domain\\Entities\\Task.cs",
-              "RelativeToolTip": "Todo.Domain\\Entities\\Task.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBIAAAAyAAAAAAAAAA==",
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Application\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Todo.Application\\Interfaces\\IRepository.cs",
+              "ToolTip": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Application\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Todo.Application\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T14:13:01.03Z",
+              "WhenOpened": "2025-11-22T15:35:53.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskDto.cs",
+              "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Application\\DTOs\\TaskDto.cs",
+              "RelativeDocumentMoniker": "Todo.Application\\DTOs\\TaskDto.cs",
+              "ToolTip": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Application\\DTOs\\TaskDto.cs",
+              "RelativeToolTip": "Todo.Application\\DTOs\\TaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:08:44.601Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Application\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "Todo.Application\\Services\\TaskService.cs",
+              "ToolTip": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Application\\Services\\TaskService.cs",
+              "RelativeToolTip": "Todo.Application\\Services\\TaskService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwBQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T15:06:37.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Todo.Domain\\Entities\\User.cs",
@@ -239,8 +239,31 @@
               "RelativeToolTip": "Todo.Domain\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-22T14:12:48.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-22T14:12:48.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Domain\\Entities\\Tag.cs",
+              "RelativeDocumentMoniker": "Todo.Domain\\Entities\\Tag.cs",
+              "ToolTip": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Domain\\Entities\\Tag.cs",
+              "RelativeToolTip": "Todo.Domain\\Entities\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:13:10.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Task.cs",
+              "DocumentMoniker": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Domain\\Entities\\Task.cs",
+              "RelativeDocumentMoniker": "Todo.Domain\\Entities\\Task.cs",
+              "ToolTip": "E:\\Cabinet\\Github\\Todo-s-App\\Todo.Domain\\Entities\\Task.cs",
+              "RelativeToolTip": "Todo.Domain\\Entities\\Task.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA4wBIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T14:13:01.03Z"
             }
           ]
         },

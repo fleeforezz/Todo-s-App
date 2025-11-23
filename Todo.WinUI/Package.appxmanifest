@@ -8,14 +8,14 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="da45bfff-2667-4ad0-a633-ef38184f88ef"
+    Name="6fe3acad-645b-465a-9ba6-5a5c579caccf"
     Publisher="CN=jso"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="da45bfff-2667-4ad0-a633-ef38184f88ef" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="6fe3acad-645b-465a-9ba6-5a5c579caccf" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>Todo</DisplayName>
+    <DisplayName>Todo.WinUI</DisplayName>
     <PublisherDisplayName>jso</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -34,8 +34,8 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="Todo"
-        Description="Todo"
+        DisplayName="Todo.WinUI"
+        Description="Todo.WinUI"
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png">
