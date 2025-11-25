@@ -70,7 +70,7 @@ namespace TodoApp.DAL.Repositories
         */
         public User? GetByEmailPassword(string email, string password)
         {
-            return _db.Users.FirstOrDefault(u => u.Email == email && u.PasswordHash == password);
+            return _db.Users.FirstOrDefault(u => u.Email == email && u.Password == password);
         }
 
         /*

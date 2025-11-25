@@ -22,19 +22,19 @@ namespace TodoApp.UI.Dialogs
     {
         public Todo EditedTodo { get; private set; }
         private readonly Todo _orginalTodo;
-        private readonly List<Category> _categories;
+        private readonly List<Tag> _tags;
 
         public EditTodoDialog()
         {
             InitializeComponent();
         }
 
-        public EditTodoDialog(Todo todo, List<Category> categories)
+        public EditTodoDialog(Todo todo, List<Tag> tags)
         {
             InitializeComponent();
 
             _orginalTodo = todo;
-            _categories = categories;
+            _tags = tags;
 
             LoadData();
         }
@@ -46,24 +46,24 @@ namespace TodoApp.UI.Dialogs
             DescriptionTextBox.Text = _orginalTodo.Description ?? string.Empty;
 
             // Load categories with "None" option
-            var categoryList = new List<CategoryOption>
+            var tagList = new List<CategoryOption>
             {
-                new CategoryOption{ CategoryId = null, Name = "None" }
+                new CategoryOption{ TagId = null, TagName = "None" }
             };
 
-            categoryList.AddRange(_categories.Select(c => new CategoryOption
+            tagList.AddRange(_tags.Select(c => new CategoryOption
             {
-                CategoryId = c.CategoryId,
-                Name = c.Name,
+                TagId = c.TagId,
+                TagName = c.TagName,
             }));
 
             // Set the ItemsSource directly instead of relying on binding
-            CategoryComboBox.ItemsSource = categoryList;
+            CategoryComboBox.ItemsSource = tagList;
 
             // Select current category
-            if (_orginalTodo.CategoryId.HasValue)
+            if (_orginalTodo.TagId.HasValue)
             {
-                CategoryComboBox.SelectedValue = _orginalTodo.CategoryId.Value;
+                CategoryComboBox.SelectedValue = _orginalTodo.TagId.Value;
             }
             else
             {
@@ -71,9 +71,9 @@ namespace TodoApp.UI.Dialogs
             }
 
             // Set reminder time if exists
-            if (_orginalTodo.ReminderTime.HasValue)
+            if (_orginalTodo.DueDate.HasValue)
             {
-                ReminderDatePicker.SelectedDate = _orginalTodo.ReminderTime.Value;
+                ReminderDatePicker.SelectedDate = _orginalTodo.DueDate.Value;
             }
         }
 
@@ -98,17 +98,17 @@ namespace TodoApp.UI.Dialogs
                     ? null
                     : DescriptionTextBox.Text.Trim(),
                 IsCompleted = _orginalTodo.IsCompleted,
-                CategoryId = (CategoryComboBox.SelectedItem as CategoryOption)?.CategoryId,
-                ReminderTime = ReminderDatePicker.SelectedDate,
+                TagId = (CategoryComboBox.SelectedItem as CategoryOption)?.TagId,
+                DueDate = ReminderDatePicker.SelectedDate,
                 CreatedAt = _orginalTodo.CreatedAt,
                 UpdatedAt = DateTime.Now
             };
 
             // Set category name for display
-            if (EditedTodo.CategoryId.HasValue)
+            if (EditedTodo.TagId.HasValue)
             {
-                var category = _categories.FirstOrDefault(c => c.CategoryId == EditedTodo.CategoryId);
-                EditedTodo.CategoryName = category?.Name;
+                var tag = _tags.FirstOrDefault(c => c.TagId == EditedTodo.TagId);
+                EditedTodo.TagName = tag?.TagName;
             }
 
             DialogResult = true;
@@ -130,8 +130,8 @@ namespace TodoApp.UI.Dialogs
         // Helper class for ComboBox binding
         private class CategoryOption
         {
-            public Guid? CategoryId { get; set; }
-            public string Name { get; set; }
+            public Guid? TagId { get; set; }
+            public string TagName { get; set; }
         }
     }
 }

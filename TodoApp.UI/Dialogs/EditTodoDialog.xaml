@@ -218,7 +218,7 @@
                     BorderBrush="#DDD"
                     BorderThickness="1"
                     DisplayMemberPath="Name"
-                    SelectedValuePath="CategoryId">
+                    SelectedValuePath="TagId">
                     <ComboBox.Style>
                         <Style
                             TargetType="ComboBox">

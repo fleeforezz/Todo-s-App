@@ -20,7 +20,7 @@ namespace TodoApp.UI.ViewModels
     {
         private readonly NavigationService _nav;
         private readonly TodoService _todoService;
-        private readonly CategoryService _categoryService;
+        private readonly TagService _categoryService;
 
         private User _currentUser;
         private string _newTodoTitle;
@@ -28,9 +28,9 @@ namespace TodoApp.UI.ViewModels
         private Guid? _selectedCategoryId;
         private ObservableCollection<Todo> _todoList;
         private ObservableCollection<Todo> _filteredTodos;
-        private ObservableCollection<Category> _categories;
+        private ObservableCollection<Tag> _categories;
 
-        public TodoViewModel(NavigationService nav, User currentUser, TodoService todoService, CategoryService categoryService)
+        public TodoViewModel(NavigationService nav, User currentUser, TodoService todoService, TagService categoryService)
         {
             _nav = nav;
             _currentUser = currentUser;
@@ -38,7 +38,7 @@ namespace TodoApp.UI.ViewModels
             _categoryService = categoryService;
 
             Todos = new ObservableCollection<Todo>();
-            Categories = new ObservableCollection<Category>();
+            Categories = new ObservableCollection<Tag>();
             FilteredTodos = new ObservableCollection<Todo>();
 
             InitializeCommands();
@@ -106,7 +106,7 @@ namespace TodoApp.UI.ViewModels
             }
         }
 
-        public ObservableCollection<Category> Categories
+        public ObservableCollection<Tag> Categories
         {
             get => _categories;
             set
@@ -154,16 +154,16 @@ namespace TodoApp.UI.ViewModels
                 foreach (var todo in todos)
                 {
                     // Load category name if exists
-                    if (todo.CategoryId.HasValue)
+                    if (todo.TagId.HasValue)
                     {
-                        var category = _categoryService.GetCategoryById(todo.CategoryId.Value);
-                        todo.CategoryName = category?.Name;
+                        var category = _categoryService.GetTagById(todo.TagId.Value);
+                        todo.TagName = category?.TagName;
                     }
                     Todos.Add(todo);
                 }
 
                 // Load categories for current user
-                var categories = _categoryService.GetCategories(_currentUser.UserId);
+                var categories = _categoryService.GetTags(_currentUser.UserId);
                 Categories.Clear();
                 foreach (var category in categories)
                 {
@@ -202,16 +202,16 @@ namespace TodoApp.UI.ViewModels
                     Title = NewTodoTitle.Trim(),
                     Description = string.Empty,
                     IsCompleted = false,
-                    CategoryId = _selectedCategoryId,
+                    TagId = _selectedCategoryId,
                     CreatedAt = DateTime.Now,
                     UpdatedAt = DateTime.Now,
                 };
 
                 // Load category name if a category is selected
-                if (newTodo.CategoryId.HasValue)
+                if (newTodo.TagId.HasValue)
                 {
-                    var category = _categoryService.GetCategoryById(newTodo.CategoryId.Value);
-                    newTodo.CategoryName = category?.Name;
+                    var category = _categoryService.GetTagById(newTodo.TagId.Value);
+                    newTodo.TagName = category?.TagName;
                 }
 
                 // Add Todo to database
@@ -240,15 +240,15 @@ namespace TodoApp.UI.ViewModels
                 var dialog = new AddCategoryDialog();
                 if (dialog.ShowDialog() == true && !string.IsNullOrWhiteSpace(dialog.CategoryName))
                 {   
-                    var newCategory = new Category
+                    var newCategory = new Tag
                     {
-                        CategoryId = Guid.NewGuid(),
+                        TagId = Guid.NewGuid(),
                         UserId = _currentUser.UserId,
-                        Name = dialog.CategoryName.Trim(),
+                        TagName = dialog.CategoryName.Trim(),
                         CreatedAt = DateTime.Now
                     };
 
-                    _categoryService.CreateCategory(newCategory);
+                    _categoryService.CreateTag(newCategory);
                     Categories.Add(newCategory);
 
                     // Show all todos initially
@@ -313,7 +313,7 @@ namespace TodoApp.UI.ViewModels
             try
             {
                 // Reload categories from database to ensure we have the latest
-                var categories = _categoryService.GetCategories(_currentUser.UserId);
+                var categories = _categoryService.GetTags(_currentUser.UserId);
 
                 var editDialog = new EditTodoDialog(todo, categories.ToList());
                 if (editDialog.ShowDialog() == true)
@@ -321,14 +321,14 @@ namespace TodoApp.UI.ViewModels
                     var editedTodo = editDialog.EditedTodo;
 
                     // Load category name if exists
-                    if (editedTodo.CategoryId.HasValue)
+                    if (editedTodo.TagId.HasValue)
                     {
-                        var category = categories.FirstOrDefault(c => c.CategoryId == editedTodo.CategoryId.Value);
-                        editedTodo.CategoryName = category?.Name;
+                        var category = categories.FirstOrDefault(c => c.TagId == editedTodo.TagId.Value);
+                        editedTodo.TagName = category?.TagName;
                     }
                     else
                     {
-                        editedTodo.CategoryName = null;
+                        editedTodo.TagName = null;
                     }
 
                     // Update the todo in the service
@@ -342,9 +342,9 @@ namespace TodoApp.UI.ViewModels
                         // Update all properties
                         originalTodo.Title = editedTodo.Title;
                         originalTodo.Description = editedTodo.Description;
-                        originalTodo.CategoryId = editedTodo.CategoryId;
-                        originalTodo.CategoryName = editedTodo.CategoryName;
-                        originalTodo.ReminderTime = editedTodo.ReminderTime;
+                        originalTodo.TagId = editedTodo.TagId;
+                        originalTodo.TagName = editedTodo.TagName;
+                        originalTodo.DueDate = editedTodo.DueDate;
                         originalTodo.UpdatedAt = editedTodo.UpdatedAt;
                         originalTodo.IsCompleted = editedTodo.IsCompleted;
                     }
@@ -393,7 +393,7 @@ namespace TodoApp.UI.ViewModels
         */
         private void ExecuteRemoveCategory(Guid categoryId)
         {
-            var category = Categories.FirstOrDefault(c => c.CategoryId == categoryId);
+            var category = Categories.FirstOrDefault(c => c.TagId == categoryId);
             if (category == null) return;
 
             // Verify this category belongs to the current user
@@ -407,8 +407,8 @@ namespace TodoApp.UI.ViewModels
             // IMPORTANT: Check ALL todos belonging to THIS USER that have this category
             var affectedTodos = Todos
                 .Where(t => t.UserId == _currentUser.UserId &&
-                            t.CategoryId.HasValue &&
-                            t.CategoryId.Value == categoryId)
+                            t.TagId.HasValue &&
+                            t.TagId.Value == categoryId)
                 .ToList();
 
             // Show appropriate confirmation message
@@ -417,7 +417,7 @@ namespace TodoApp.UI.ViewModels
             if (affectedTodos.Any())
             {
                 result = MessageBox.Show(
-                    $"Category '{category.Name}' has {affectedTodos.Count} todo(s) assigned to it.\n\n" +
+                    $"Category '{category.TagName}' has {affectedTodos.Count} todo(s) assigned to it.\n\n" +
                     "Click YES to delete the category and remove it from all todos.\n" +
                     "Click NO to cancel.",
                     "Confirm Delete",
@@ -427,7 +427,7 @@ namespace TodoApp.UI.ViewModels
             else
             {
                 result = MessageBox.Show(
-                    $"Delete category '{category.Name}'?",
+                    $"Delete category '{category.TagName}'?",
                     "Confirm",
                     MessageBoxButton.YesNo,
                     MessageBoxImage.Warning);
@@ -447,15 +447,15 @@ namespace TodoApp.UI.ViewModels
                     try
                     {
                         // Update the in-memory object
-                        todo.CategoryId = null;
-                        todo.CategoryName = null;
+                        todo.TagId = null;
+                        todo.TagName = null;
                         todo.UpdatedAt = DateTime.Now;
 
                         // Save to database immediately
                         _todoService.UpdateTodo(todo);
                         updatedCount++;
 
-                        System.Diagnostics.Debug.WriteLine($"Updated todo: {todo.Title}, CategoryId is now: {todo.CategoryId}");
+                        System.Diagnostics.Debug.WriteLine($"Updated todo: {todo.Title}, CategoryId is now: {todo.TagId}");
                     }
                     catch (Exception ex)
                     {
@@ -473,8 +473,8 @@ namespace TodoApp.UI.ViewModels
                 // Step 3: Now try to delete the category
                 try
                 {
-                    _categoryService.DeleteCategory(category);
-                    System.Diagnostics.Debug.WriteLine($"Successfully deleted category: {category.Name}");
+                    _categoryService.DeleteTag(category);
+                    System.Diagnostics.Debug.WriteLine($"Successfully deleted category: {category.TagName}");
                 }
                 catch (Exception ex)
                 {
@@ -539,8 +539,8 @@ namespace TodoApp.UI.ViewModels
             else if (parameter is Guid categoryId)
             {
                 _selectedCategoryId = categoryId;
-                var category = Categories.FirstOrDefault(c => c.CategoryId == categoryId);
-                CurrentCategoryName = category?.Name ?? "Unknown Category";
+                var category = Categories.FirstOrDefault(c => c.TagId == categoryId);
+                CurrentCategoryName = category?.TagName ?? "Unknown Category";
             }
 
             FilterTodos();
@@ -554,7 +554,7 @@ namespace TodoApp.UI.ViewModels
             FilteredTodos.Clear();
 
             var filtered = _selectedCategoryId.HasValue
-                ? Todos.Where(t => t.CategoryId == _selectedCategoryId.Value)
+                ? Todos.Where(t => t.TagId == _selectedCategoryId.Value)
                 : Todos;
 
             // Order by: incomplete first, then by creation date (newest first)

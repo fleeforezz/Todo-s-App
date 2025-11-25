@@ -32,7 +32,7 @@ namespace TodoApp.BLL.Services
             {
                 TodoId = Guid.NewGuid(),
                 UserId = todo.UserId,
-                CategoryId = todo.CategoryId,
+                TagId = todo.TagId,
                 Title = todo.Title,
                 Description = todo.Description,
                 IsCompleted = false,

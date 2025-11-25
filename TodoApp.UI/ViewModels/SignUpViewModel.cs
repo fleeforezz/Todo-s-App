@@ -47,7 +47,7 @@ namespace TodoApp.UI.ViewModels
                 UserId = Guid.NewGuid(),
                 Username = Username,
                 Email = Email,
-                PasswordHash = Password
+                Password = Password
             };
 
             _userService.SignUp(user);

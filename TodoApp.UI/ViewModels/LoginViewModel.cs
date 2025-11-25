@@ -17,7 +17,7 @@ namespace TodoApp.UI.ViewModels
         private readonly NavigationService _nav;
         private readonly UserService _userService;
         private readonly TodoService _todoService;
-        private readonly CategoryService _categoryService;
+        private readonly TagService _categoryService;
 
         private string _email;
         public string Email
@@ -49,10 +49,10 @@ namespace TodoApp.UI.ViewModels
             // Initialize the services
             var db = new TodoDbContext();
             var todoRepo = new TodoRepository(db);
-            var categoryRepo = new CategoryRepository(db);
+            var categoryRepo = new TagRepository(db);
 
             _todoService = new TodoService(todoRepo);
-            _categoryService = new CategoryService(categoryRepo);
+            _categoryService = new TagService(categoryRepo);
 
             LoginCommand = new RelayCommand(o => Login());
             GoToSignUpCommand = new RelayCommand(o => _nav.NavigateTo(new SignUpViewModel(_nav, _userService)));

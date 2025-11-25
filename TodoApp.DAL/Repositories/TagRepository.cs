@@ -7,11 +7,11 @@ using TodoApp.DAL.Entities;
 
 namespace TodoApp.DAL.Repositories
 {
-    public class CategoryRepository : IRepository<Category>
+    public class TagRepository : IRepository<Tag>
     {
         private readonly TodoDbContext _db;
 
-        public CategoryRepository(TodoDbContext db)
+        public TagRepository(TodoDbContext db)
         {
             _db = db;
         }
@@ -19,7 +19,7 @@ namespace TodoApp.DAL.Repositories
         /*
         *  Create
         */
-        public Category Create(Category category)
+        public Tag Create(Tag category)
         {
             _db.Add(category);
             _db.SaveChanges();
@@ -29,7 +29,7 @@ namespace TodoApp.DAL.Repositories
         /*
         *  Delete
         */
-        public bool Delete(Category category)
+        public bool Delete(Tag category)
         {
             _db.Remove(category);
             _db.SaveChanges();
@@ -47,25 +47,25 @@ namespace TodoApp.DAL.Repositories
         /*
         *  Get All
         */
-        public List<Category> GetAll()
+        public List<Tag> GetAll()
         {
-            return _db.Categories.ToList();
+            return _db.Tags.ToList();
         }
 
         /*
         *  Get By Id
         */
-        public Category? GetById(Guid categoryId)
+        public Tag? GetById(Guid tagId)
         {
-            return _db.Categories.FirstOrDefault(c => c.CategoryId == categoryId);
+            return _db.Tags.FirstOrDefault(c => c.TagId == tagId);
         }
 
         /*
         *  Get By User Id
         */
-        public List<Category> GetByUserId(Guid userId)
+        public List<Tag> GetByUserId(Guid userId)
         {
-            return _db.Categories
+            return _db.Tags
                       .Where(c => c.UserId == userId)
                       .ToList();
         }
@@ -73,7 +73,7 @@ namespace TodoApp.DAL.Repositories
         /*
         *  Update
         */
-        public bool Update(Category category)
+        public bool Update(Tag category)
         {
             _db.Update(category);
             _db.SaveChanges();

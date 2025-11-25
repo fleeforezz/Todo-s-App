@@ -3,18 +3,15 @@ using System.Collections.Generic;
 
 namespace TodoApp.DAL.Entities;
 
-public partial class User
+public partial class Tag
 {
+    public Guid TagId { get; set; }
     public Guid UserId { get; set; }
-    public string Username { get; set; } = null!;
-    public string Password { get; set; } = null!;
-    public string Email { get; set; } = null!;
-    public string CoverImageUrl { get; set; } = null!;
-    public bool IsActive { get; set; } = true;
+    public string TagName { get; set; } = null!;
     public DateTime? CreatedAt { get; set; } = DateTime.Now;
     public DateTime? UpdatedAt { get; set; } = DateTime.Now;
 
     // Navigation properties
-    public virtual ICollection<Tag> Tags { get; set; } = new List<Tag>();
+    public virtual User User { get; set; } = null!;
     public virtual ICollection<Todo> Todos { get; set; } = new List<Todo>();
 }

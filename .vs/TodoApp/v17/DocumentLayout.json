@@ -1,15 +1,48 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Cabinet\\Github\\Todo-s-App\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\Github_Repos\\Fleeforezz\\Todo-s-App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|d:\\github_repos\\fleeforezz\\todo-s-app\\todoapp.ui\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|solutionrelative:todoapp.ui\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|d:\\github_repos\\fleeforezz\\todo-s-app\\todoapp.ui\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|solutionrelative:todoapp.ui\\services\\navigationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|d:\\github_repos\\fleeforezz\\todo-s-app\\todoapp.ui\\viewmodels\\todoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|solutionrelative:todoapp.ui\\viewmodels\\todoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|d:\\github_repos\\fleeforezz\\todo-s-app\\todoapp.ui\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|solutionrelative:todoapp.ui\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96F05DBE-0BBB-46DD-87A5-BD80A6A40061}|TodoApp.DAL\\TodoApp.DAL.csproj|d:\\github_repos\\fleeforezz\\todo-s-app\\todoapp.dal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96F05DBE-0BBB-46DD-87A5-BD80A6A40061}|TodoApp.DAL\\TodoApp.DAL.csproj|solutionrelative:todoapp.dal\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96F05DBE-0BBB-46DD-87A5-BD80A6A40061}|TodoApp.DAL\\TodoApp.DAL.csproj|d:\\github_repos\\fleeforezz\\todo-s-app\\todoapp.dal\\context\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96F05DBE-0BBB-46DD-87A5-BD80A6A40061}|TodoApp.DAL\\TodoApp.DAL.csproj|solutionrelative:todoapp.dal\\context\\tododbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|d:\\github_repos\\fleeforezz\\todo-s-app\\todoapp.ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|solutionrelative:todoapp.ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|d:\\github_repos\\fleeforezz\\todo-s-app\\todoapp.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3A3E2958-667B-4F3D-AA3D-45B9F1F56916}|TodoApp.UI\\TodoApp.UI.csproj|solutionrelative:todoapp.ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 1745,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 1824,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,10 +74,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
@@ -54,6 +83,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:13:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Bookmark",
@@ -69,11 +102,115 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\Github_Repos\\Fleeforezz\\Todo-s-App\\TodoApp.UI\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "TodoApp.UI\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\Github_Repos\\Fleeforezz\\Todo-s-App\\TodoApp.UI\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "TodoApp.UI\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAiwCUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T13:42:53.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Github_Repos\\Fleeforezz\\Todo-s-App\\TodoApp.UI\\appsettings.json",
+              "RelativeDocumentMoniker": "TodoApp.UI\\appsettings.json",
+              "ToolTip": "D:\\Github_Repos\\Fleeforezz\\Todo-s-App\\TodoApp.UI\\appsettings.json",
+              "RelativeToolTip": "TodoApp.UI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-25T13:32:31.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NavigationService.cs",
+              "DocumentMoniker": "D:\\Github_Repos\\Fleeforezz\\Todo-s-App\\TodoApp.UI\\Services\\NavigationService.cs",
+              "RelativeDocumentMoniker": "TodoApp.UI\\Services\\NavigationService.cs",
+              "ToolTip": "D:\\Github_Repos\\Fleeforezz\\Todo-s-App\\TodoApp.UI\\Services\\NavigationService.cs",
+              "RelativeToolTip": "TodoApp.UI\\Services\\NavigationService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowBgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T13:19:27.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TodoViewModel.cs",
+              "DocumentMoniker": "D:\\Github_Repos\\Fleeforezz\\Todo-s-App\\TodoApp.UI\\ViewModels\\TodoViewModel.cs",
+              "RelativeDocumentMoniker": "TodoApp.UI\\ViewModels\\TodoViewModel.cs",
+              "ToolTip": "D:\\Github_Repos\\Fleeforezz\\Todo-s-App\\TodoApp.UI\\ViewModels\\TodoViewModel.cs",
+              "RelativeToolTip": "TodoApp.UI\\ViewModels\\TodoViewModel.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwCAAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T13:06:55.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Github_Repos\\Fleeforezz\\Todo-s-App\\TodoApp.DAL\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "TodoApp.DAL\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Github_Repos\\Fleeforezz\\Todo-s-App\\TodoApp.DAL\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "TodoApp.DAL\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAIA1wEgAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T12:59:47.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\Github_Repos\\Fleeforezz\\Todo-s-App\\TodoApp.UI\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "TodoApp.UI\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "D:\\Github_Repos\\Fleeforezz\\Todo-s-App\\TodoApp.UI\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "TodoApp.UI\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAA2wBYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T12:59:31.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Github_Repos\\Fleeforezz\\Todo-s-App\\TodoApp.UI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "TodoApp.UI\\App.xaml.cs",
+              "ToolTip": "D:\\Github_Repos\\Fleeforezz\\Todo-s-App\\TodoApp.UI\\App.xaml.cs",
+              "RelativeToolTip": "TodoApp.UI\\App.xaml.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAE8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T12:51:48.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TodoDbContext.cs",
+              "DocumentMoniker": "D:\\Github_Repos\\Fleeforezz\\Todo-s-App\\TodoApp.DAL\\Context\\TodoDbContext.cs",
+              "RelativeDocumentMoniker": "TodoApp.DAL\\Context\\TodoDbContext.cs",
+              "ToolTip": "D:\\Github_Repos\\Fleeforezz\\Todo-s-App\\TodoApp.DAL\\Context\\TodoDbContext.cs",
+              "RelativeToolTip": "TodoApp.DAL\\Context\\TodoDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T11:43:00.396Z",
+              "EditorCaption": ""
             }
           ]
         },
@@ -83,11 +220,11 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         },
